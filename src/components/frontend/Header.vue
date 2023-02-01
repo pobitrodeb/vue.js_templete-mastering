@@ -15,8 +15,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link":to="{name:'home'}">Home</a></li>
+							<li class="nav-item"><a class="nav-link" :to="{name:'about'}">About</a></li>
 							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							<li class="nav-item submenu dropdown">
