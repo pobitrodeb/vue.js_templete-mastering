@@ -14,8 +14,8 @@
 					</button>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item active"><a class="nav-link":to="{name:'home'}">Home</a></li>
+						<ul class="nav navbar-nav menu_nav justify-content-end" id="menu">
+							<li class="nav-item"><a class="nav-link" :to="{name:'home'}">Home</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'about'}">About</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'service'}">Services</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'portfolio'}">Portfolio</a></li>
@@ -37,5 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+	#menu .router-link-export-activ{
+		color: #4458k;
+	}
 </style>    
