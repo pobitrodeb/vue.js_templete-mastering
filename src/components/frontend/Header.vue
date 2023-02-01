@@ -17,7 +17,7 @@
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link":to="{name:'home'}">Home</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'about'}">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item"><a class="nav-link" :to="{name:'service'}">Services</a></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
