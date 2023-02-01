@@ -18,24 +18,9 @@
 							<li class="nav-item active"><a class="nav-link":to="{name:'home'}">Home</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'about'}">About</a></li>
 							<li class="nav-item"><a class="nav-link" :to="{name:'service'}">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" :to="{name:'portfolio'}">Portfolio</a></li>
+							<li class="nav-item"><a class="nav-link" :to="{name:'blog'}">Blog</a></li>
+							<li class="nav-item"><a class="nav-link" :to="{name: 'contact'}">Contact</a></li>
 						</ul>
 					</div>
 				</div>
